@@ -18,25 +18,25 @@
     <h1>Hai Cantikk</h1>
     <img src="https://media.tenor.com/hrAePj4I7ZgAAAAj/mtthrowhearts.gif" alt="">
     <h1>Mau ngga jadi pacar aku ?</h1>
-    <div class="p-2 text-center d-flex justify-content-center text-dark" style="height: 100px;width: 200px;"><button class="bg-primary m-3" id="iya"> Iya mau >_< </button></div>
-    <div id="tolak" class="tolak text-center d-flex justify-content-center text-dark" style=" position: relative; height: 100px;width: 200px;left: 10px ; top: 100px;"><button class="bg-primary m-4" id="tolak1">Ngga mau</button></div>
+    <div class="p-2 text-center d-flex justify-content-center text-dark " style="height: 100px;width: 200px;"><button class="bg-primary m-3 rounded rounded-3" id="iya"> Iya mau >_< </button></div>
+    <div id="tolak" class="tolak text-center d-flex justify-content-center text-dark" style=" position: relative; height: 100px;width: 200px;left: 10px ; top: 100px;"><button class="bg-primary m-4 rounded rounded-3" id="tolak1">Ngga mau</button></div>
 </body>
     <script>
           $(document).ready(function () {
     $("#tolak").hover(function () {
-        var i = Math.floor(Math.random() * 900) + 1;
+        var i = Math.floor(Math.random() * 700) + 1;
         var j = Math.floor(Math.random() * 200) + 1;
         $("#tolak").css({"left":i});
         $("#tolak").css({"top":j});
     });
     $("#tolak").click(function () {
-        var i = Math.floor(Math.random() * 900) + 1;
+        var i = Math.floor(Math.random() * 700) + 1;
         var j = Math.floor(Math.random() * 200) + 1;
         $("#tolak").css({"left":i});
         $("#tolak").css({"top":j});
     });
     $("#tolak1").hover(function () {
-        var i = Math.floor(Math.random() * 900) + 1;
+        var i = Math.floor(Math.random() * 700) + 1;
         var j = Math.floor(Math.random() * 200) + 1;
         $("#tolak").css({"left":i});
         $("#tolak").css({"top":j});
@@ -45,7 +45,7 @@
         alert("I Love You Too");
     });
     $("#tolak").mouseleave(function(){
-        var i = Math.floor(Math.random() * 900) + 1;
+        var i = Math.floor(Math.random() * 700) + 1;
         var j = Math.floor(Math.random() * 200) + 1;
         $("#tolak").css({"left":i});
         $("#tolak").css({"top":j});
